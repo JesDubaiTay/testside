@@ -22,7 +22,7 @@ body {
 .hero-section {
     position: relative;
     min-height: 100vh;
-    background: url('titul.jpg') center center / cover no-repeat;
+    background: url('titulsideabekto.JPG') center center / cover no-repeat;
     display: flex;
     flex-direction: column;
 }
