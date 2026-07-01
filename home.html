@@ -521,8 +521,8 @@
             <div class="footer-col">
                 <h3>КОНТАКТЫ</h3>
                 <ul class="footer-contacts">
-                    <li><span class="icon">📞</span><a href="tel:+79220751444">+7 800 355-35-35</a></li>
-                    <li><span class="icon">✉️</span><a href="mailto:korpusovadasha@mail.ru">workpaabectam@mail.ru</a></li>
+                    <li><span class="icon">📞</span><a href="tel:+79220731397">+7 922 073-13-97</a></li>
+                    <li><span class="icon">✉️</span><a href="mailto:danil.pautov.2017@gmail.com">danil.pautov.2017@gmail.com</a></li>
                     <li><span class="icon">🕒</span><span>Работаем 24/7</span></li>
                 </ul>
             </div>
@@ -530,10 +530,10 @@
             <div class="footer-col">
                 <h3>МЫ В СОЦСЕТЯХ</h3>
                 <div class="footer-socials">
-                    <a href="#" class="social-icon tg" title="Telegram">
+                    <a href="#https://t.me/Ivan_spa72" class="social-icon tg" title="Telegram">
                         <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m22 2-7 20-4-9-9-4Z"></path><path d="M22 2 11 13"></path></svg>
                     </a>
-                    <a href="#" class="social-icon vk" title="ВКонтакте"><b>ВК</b></a>
+                    <a href="#https://vk.com/sreda_remonta72" class="social-icon vk" title="ВКонтакте"><b>ВК</b></a>
                 </div>
                 <a href="#" class="footer-ask-btn">ЗАДАТЬ ВОПРОС</a>
             </div>
@@ -548,8 +548,8 @@
             <p class="modal-subtitle">Напишите нам на почту или позвоните:</p>
             
             <div class="modal-contacts">
-                <a href="tel:+79959409978" class="modal-phone">8 (995) 940-99-78</a>
-                <a href="mailto:workpaabectam@mail.ru" class="modal-email">workpaabectam@mail.ru</a>
+                <a href="tel:+79220731397" class="modal-phone">8 (922) 073-13-97</a>
+                <a href="mailto:danil.pautov.2017@gmail.com" class="modal-email">danil.pautov.2017@gmail.com</a>
             </div>
             
             <div class="modal-footer-text">Работаем круглосуточно для вашего удобства</div>
@@ -558,24 +558,16 @@
         <script>
         const modal = document.getElementById('contactModal');
         const closeBtn = document.getElementById('closeModalBtn');
-
-        // Находим абсолютно ВСЕ нужные кнопки на странице
         const openButtons = document.querySelectorAll('.tariff-btn, .cta-button, .footer-ask-btn');
-
-        // Перебираем кнопки и вешаем на каждую событие клика
         openButtons.forEach(button => {
             button.addEventListener('click', (e) => {
-                e.preventDefault(); // Отменяем стандартный переход по ссылке #
-                modal.classList.add('active'); // Показываем окно
+                e.preventDefault();
+                modal.classList.add('active');
             });
         });
-
-        // Закрытие при клике на крестик
         closeBtn.addEventListener('click', () => {
             modal.classList.remove('active');
         });
-
-        // Закрытие при клике на темную область вокруг окна
         modal.addEventListener('click', (e) => {
             if (e.target === modal) {
                 modal.classList.remove('active');
